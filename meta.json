@@ -4,7 +4,23 @@
             "apiComponents": {
                 "ApiContainer": {
                     "id": "ApiContainer",
-                    "children": []
+                    "children": [
+                        {
+                            "type": "AdMob Interstitial",
+                            "translatedName": "AdMob Interstitial",
+                            "isApi": true,
+                            "reactType": "AdMobInterstitial",
+                            "properties": {
+                                "AdUnitID": "ca-app-pub-3940256099942544/1033173712",
+                                "AdUnitID_iOS": "ca-app-pub-3940256099942544/1033173712",
+                                "TestMode": true
+                            },
+                            "children": [],
+                            "id": "4fc66a3f-8122-40bb-86dc-c2cf6d6de837",
+                            "thunkableVersion": 423,
+                            "name": "AdMob_Interstitial1"
+                        }
+                    ]
                 }
             },
             "assets": {
@@ -21,8 +37,8 @@
                     "createdAt": "2023-09-25T05:04:29.639Z",
                     "updatedAt": "2023-09-25T05:04:29.639Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9ebc59e120656db03c5a4/projects/6509c6f5a070c26404bf50e8/assets/651114dd773d13aea6e91b70?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230925%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230925T050429Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=173a0117c9113584273abb5179b62b9f88e6dab5f844906f7e4a5c2f0f71755748420edc11fb692851aff879d2672d6539233ddcd4a48d23497f2a21a1ef581a3b917946efe22a23562d7c6ca8d48b9a0037930906fc56e2740443767169d85f9d6fd1a5c50a756b5b15718d8348b8fa669fa93a1a6c64ab6fd9f33546186cdd205929a04660c2097db6ebf6519f52598995d789f3b95a26792a97322abb7630b208da029ec509604fe0af40d4e07873a5ee49d25bb539503340168afd36ff26bbbaf737d38887e08a3708eb25a9c2daacbc5e3d99ca3b5859f86e78ed2ddb0a04fc8fa555daec41d2caf1710ea84c23356f70821fb02e7e65025f4ed69c81c1",
-                    "signedUrlExpirationTime": 1695791069669
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9ebc59e120656db03c5a4/projects/6509c6f5a070c26404bf50e8/assets/651114dd773d13aea6e91b70?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231009%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231009T183831Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=3ddab68f83e6f9c5605eacab6da32e37fbdd68868b9789e0c0dc96b8d4276c40770cc823843b68c88a1e9a7bbf06c678a8f379015a4d41ba3faa5bb534274615390f2e62e666b5e42c832c2a0d91f8b6428356524f4737ae8888a9be6026fcd40996ad9df2a3badcba74b6737b72281a41eac54c5c4af55816b67d6080499622f2473e3a67bd407ab04c42c2b1535b019c7e8dcb8d95a9106e56c8a9f6cc2391b0c12d91541a440c4291e6719fd5d2c9e70f92a448fea3ae59472f85a8a04d022fcfc1d060295dbee89b4e4dad5c1383eaae8b53f03cb243d42c6f8bdcfc654b98666087eafd6e881d9a2f4eb1a2c4d15a42d0bec07fa2650a8f5b5b4791f48a",
+                    "signedUrlExpirationTime": 1697049511167
                 }
             },
             "backendUpgradeVersion": 21,
@@ -121,7 +137,7 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "ca-app-pub-5287385323244409~1366517631",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
@@ -170,11 +186,11 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "ca-app-pub-5287385323244409~1366517631",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
-            "hasAdmob": false,
+            "hasAdmob": true,
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
